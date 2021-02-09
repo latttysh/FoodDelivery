@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/** Импорт основных настроек стилей **/
+* {
+  box-sizing: border-box;
+}
+
+img {
+  min-width: 100%;
+}
+
+.container {
+  width: 1161px;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */
