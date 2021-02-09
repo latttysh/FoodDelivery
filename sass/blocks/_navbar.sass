@@ -1,0 +1,30 @@
+.navbar
+    &-block
+        margin-top: 25px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &-links
+        list-style: none
+        padding-left: 0
+        font-size: 16px
+    &-links__item
+        float: left
+        padding-right: 40px
+    &-links__item:last-child
+        padding-right: 0
+    &-info
+        display: flex
+        align-items: center
+        &__call
+            &__img
+                margin-top: 8px
+                margin-left: 40px
+            &__number
+                float: right
+                margin-top: 20px
+                margin-left: 16px
+                text-decoration: none 
+                +bold
+                font-size: 18px
+                color: $text-color

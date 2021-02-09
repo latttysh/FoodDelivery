@@ -24,11 +24,55 @@ body {
 }
 
 img {
-  min-width: 100%;
+  max-width: 100%;
 }
 
 .container {
   width: 1161px;
   margin: auto;
+}
+
+/** Импорт стилей для навигации **/
+.navbar-block {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.navbar-links__item {
+  float: left;
+  padding-right: 40px;
+}
+
+.navbar-links__item:last-child {
+  padding-right: 0;
+}
+
+.navbar-info {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-info__call__img {
+  margin-top: 8px;
+  margin-left: 40px;
+}
+
+.navbar-info__call__number {
+  float: right;
+  margin-top: 20px;
+  margin-left: 16px;
+  text-decoration: none;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
