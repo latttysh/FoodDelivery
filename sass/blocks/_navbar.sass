@@ -1,18 +1,33 @@
 .navbar
+    background-color: $gray-bg
+    padding-bottom: 105px
     &-block
-        margin-top: 25px
+        padding-top: 25px
         display: flex
-        justify-content: space-between
+        justify-content: flex-start
         align-items: center
     &-links
+        cursor: pointer
         list-style: none
         padding-left: 0
         font-size: 16px
+        margin-right: 226px
     &-links__item
         float: left
-        padding-right: 40px
+        margin-right: 40px
+        &:after
+            content: ''
+            display: block
+            width: 0%
+            height: 2px
+            background-color: orange
+            transition: .4s ease-out
+        &:hover:after
+            width: 100%
     &-links__item:last-child
-        padding-right: 0
+        margin-right: 0
+    &__logo
+        margin-right: 126px
     &-info
         display: flex
         align-items: center
