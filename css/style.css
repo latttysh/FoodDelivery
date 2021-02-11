@@ -117,6 +117,7 @@ img {
 .hero {
   height: 631px;
   background-color: #F0F5FB;
+  padding-bottom: 37px;
 }
 
 .hero__title {
@@ -141,5 +142,12 @@ img {
 .hero__img {
   display: block;
   margin: 0 auto;
+}
+
+/** Импорт стилей для блока меню **/
+.menu__title {
+  text-align: center;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
