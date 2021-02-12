@@ -117,10 +117,9 @@ img {
 .hero {
   height: 631px;
   background-color: #F0F5FB;
-  padding-bottom: 37px;
 }
 
-.hero__title {
+.hero-block__title {
   margin: 0 auto;
   font-family: 'Montserrat-Bold', sans-serif;
   font-weight: 700;
@@ -129,7 +128,7 @@ img {
   margin-bottom: 18px;
 }
 
-.hero__subtitle {
+.hero-block__subtitle {
   margin: 0 auto;
   font-family: 'Montserrat-Regular', sans-serif;
   font-weight: 400;
@@ -142,12 +141,40 @@ img {
 .hero__img {
   display: block;
   margin: 0 auto;
+  filter: blur(1px);
 }
 
 /** Импорт стилей для блока меню **/
+.menu {
+  margin-top: 200px;
+}
+
 .menu__title {
   text-align: center;
   font-family: 'Montserrat-Bold', sans-serif;
   font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  margin-bottom: 49px;
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-tabs__tab {
+  width: 145px;
+  height: 55px;
+  background: linear-gradient(0deg, #ECEEF6, #ECEEF6), #59AAF1;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 67px;
 }
 /*# sourceMappingURL=style.css.map */
